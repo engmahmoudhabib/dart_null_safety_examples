@@ -6,6 +6,15 @@ class Driver {
     required this.driver,
   });
 
+  //  function (non-void one) must returns  value or never ( throw exception ) .
+  String backSomething(int x) {
+    if (x > 0) {
+      return 'hello sothing';
+    } else {
+      throw ArgumentError();
+    }
+  }
+
   Never throwErrorsOnNoValues() {
     throw ArgumentError();
   }
