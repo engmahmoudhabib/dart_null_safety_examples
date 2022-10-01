@@ -12,6 +12,15 @@ void main(List<String> arguments) {
     ),
   );
 
+  // only toString() , == , hashCode are working fine here
+  // double? x ;
+  // double y = 8;
+  // print(x == y);
+  // print(x.toString());
+  // print(x.hashCode);
+
+  // auto down-casting is off in null-safety
+  // you need to cast obj by yourself
   Object? obj = 'txt to upper';
   showUpperCase(obj as String);
 }
