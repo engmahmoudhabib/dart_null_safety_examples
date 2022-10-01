@@ -5,6 +5,7 @@ void main(List<String> arguments) {
   Driver driver = Driver(
     driver: 'Mahmoud',
   );
+  print(driver.tempreature);
   print(
     driver.drive(
       driver,
@@ -18,7 +19,6 @@ void main(List<String> arguments) {
   // print(x == y);
   // print(x.toString());
   // print(x.hashCode);
-
 
   // (!) operator ensure for compiler that you are sure the variable will not be null
 

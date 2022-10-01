@@ -1,7 +1,11 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first, prefer_interpolation_to_compose_strings
+int temp = 25;
+
 class Driver {
   String driver;
 
+  // when create an instance from Driver the field tempreature will not initilized till access for the first time
+  late int tempreature = temp;
   Driver({
     required this.driver,
   });
