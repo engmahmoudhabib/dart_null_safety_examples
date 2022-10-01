@@ -19,6 +19,9 @@ void main(List<String> arguments) {
   // print(x.toString());
   // print(x.hashCode);
 
+
+  // (!) operator ensure for compiler that you are sure the variable will not be null
+
   // auto down-casting is off in null-safety
   // you need to cast obj by yourself
   Object? obj = 'txt to upper';
