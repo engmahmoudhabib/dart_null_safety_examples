@@ -1,3 +1,4 @@
 1 - All types in Dart after null-safety are Non-Nullable 
 2 - variables are non-Nullable unless you say that.
 3 - Parent Type of all types is ( Object? ) ==> has ( Object ) and ( Null ) types .
+4 - var variables can't be changed to another type but dynamic can

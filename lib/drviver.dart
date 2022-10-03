@@ -3,6 +3,7 @@ int temp = 25;
 
 class Driver {
   String driver;
+  static int? x;
 
   // when create an instance from Driver the field tempreature will not initilized till access for the first time
   late int tempreature = temp;
