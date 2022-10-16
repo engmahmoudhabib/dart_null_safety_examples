@@ -24,6 +24,11 @@ class Driver {
     throw ArgumentError();
   }
 
+ // use function as argument
+  int useFunctionAsArgumentInDart(int Function(int) func) {
+    return func.call(5);
+  }
+
   String drive(Driver driver, [String passenger = 'no passenger']) =>
       driver.driver + 'is driving with $passenger';
 }
