@@ -1,8 +1,21 @@
+import 'package:null_safety_examples/a.dart';
 import 'package:null_safety_examples/drviver.dart';
 //import 'package:null_safety_examples/null_safety_examples.dart' as null_safety_examples;
 
 void main(List<String> arguments) {
-  Driver driver = Driver(
+  var a = A(
+    aMember: 5,
+  );
+
+  var b = B(
+    bMember: 4,
+  );
+  var c = C(
+    cMember: 6,
+  );
+
+  print(b + c);
+  /*  Driver driver = Driver(
     driver: 'Mahmoud',
   );
   print(driver.tempreature);
@@ -11,9 +24,9 @@ void main(List<String> arguments) {
       driver,
       'Ali',
     ),
-  );
+  ); */
 
-  A()();
+  //A()();
   // only toString() , == , hashCode are working fine here
   // double? x ;
   // double y = 8;
@@ -33,6 +46,6 @@ void showUpperCase(String txt) {
   print(txt.toUpperCase());
 }
 
-class A {
+/* class A {
   void call() => print('A is a collable class ');
-}
+} */
